@@ -10,8 +10,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* HEADER RULES -------------------- */
-header {
+.cont_center {
+    text-align: center;
+}
+
+/* MAIN RULES -------------------- */
+h1 p {
     font-size: 3rem;
     text-align: center;
     padding: 20px 0;
@@ -21,14 +25,13 @@ header p {
     font-size: 1.5rem;
 }
 
-/* MAIN RULES -------------------- */
 #container {
     padding: 20px;
     display: flex;
     justify-content: center;
-    overflow: hidden;
 }
 
+    /* image rules */
 #container img {
     display: block;
 }

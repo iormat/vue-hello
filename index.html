@@ -11,22 +11,23 @@
     <title>Hello World - but with Vue</title>
 </head>
 <body>
-    <header>
-        <section id="title">
-            <h1> {{ titleText }} </h1>
-            <p> {{ paragraphText }} </p>
-        </section>
-    </header>
 
-    <main>
-        <div id="container">
-            <div class="img_container">
-                <a href="#">
-                    <img :src="addImg" alt="Random Image">
-                </a>
-            </div>
-        </div>
-    </main>
+    <div id="title" class="cont_center">
+        
+        <header>
+            <h1> {{ titleText }} </h1>
+            <p> {{ paragraphText }} </p>    
+        </header>
+        
+        <main>
+            <div id="container" class="cont_center">
+                <div class="img_container">
+                    <a href="#">
+                        <img :src="addImg" alt="Random Image">
+                    </a>    
+                </div>
+            </div>    
+        </main>
     
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <script src="js/script.js"></script>
