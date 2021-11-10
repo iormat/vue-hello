@@ -6,5 +6,10 @@ var helloWorld = new Vue(
             paragraphText: "L' immagine non è mai la stessa!",
             addImg: 'https://picsum.photos/600/300'
         },
+        methods: {
+            changeImg: function() {
+                window.location.reload();
+            }
+        }
     },
 );

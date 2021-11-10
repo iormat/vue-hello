@@ -29,6 +29,7 @@ header p {
     padding: 20px;
     display: flex;
     justify-content: center;
+    flex-flow: row wrap;
 }
 
     /* image rules */
@@ -44,8 +45,29 @@ header p {
 
 .img_container {
     width: 600px;
-    height: 300;
+    height: 300px;
     border: 1px solid #000;
     border-radius: 10px;
     overflow: hidden;
+}
+    /* my_button rules */
+.my_button {
+    width: 100%;
+    text-align: center;
+    margin: 30px;
+}
+
+.my_button button {
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 2px 2px 7px 2px rgba(75, 75, 75, .3);
+}
+
+.my_button button:hover {
+    font-weight: 600;
+    background-color: #6495ed;
+    color: #fff;
+    cursor: pointer;
 }
